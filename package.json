@@ -1,0 +1,19 @@
+{
+  "name": "babynames",
+  "version": "1.0.0",
+  "description": "this is a web app to get random baby names for each letter input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacqueline930/HC1-CDMX-Baby-Names.git"
+  },
+  "author": "jacqueline lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacqueline930/HC1-CDMX-Baby-Names/issues"
+  },
+  "homepage": "https://github.com/Jacqueline930/HC1-CDMX-Baby-Names#readme"
+}
