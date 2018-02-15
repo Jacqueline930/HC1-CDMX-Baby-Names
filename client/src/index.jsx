@@ -25,7 +25,7 @@ render() {
     <div>
     <h1>Baby Names</h1>
     <AddBabyName />
-    <BabyNames />
+    <BabyNameList />
     <ChooseGender.jsx />
     <SearchName />
     </div>
