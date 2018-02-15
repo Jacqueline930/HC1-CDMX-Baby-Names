@@ -16,19 +16,18 @@ class App extends React.Component {
   }
 
   addBabyName(letter, name) {
-
-
+    this.setState(window.data)
   }
 
   handleData() {
-
+    this.setState({nameList: window.data})
   }
 
 render() {
   return (
     <div>
       <h1>Baby Names</h1>
-      <BabyNameList />
+      <BabyNameList nameList={this.state.nameList}/>
       <SearchName />
     </div>
   )

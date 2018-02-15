@@ -3,7 +3,7 @@ import BabyNames from './BabyNames.jsx';
 
 const BabyNameList = (props) => (
   <div className="babynames">
-    {props.list.map((name) => <BabyNames name={name}/>
+    {props.nameList.map((name) => <BabyNames name={name} />)}
   </div>
 )
 

@@ -1,130 +1,130 @@
 window.data = [{
-  letter: "A",
+  letter: "a",
   designate: "Amber",
   id: 1
 },
 {
-  letter: "B",
+  letter: "b",
   designate: "Bob",
   id: 2
 },
 {
-  letter: "C",
+  letter: "c",
   designate: "Catherine",
   id: 3
 },
 {
-  letter: "D",
+  letter: "d",
   designate: "Denzel",
   id: 4
 },
 {
-  letter: "E",
+  letter: "e",
   designate: "Elizabeth",
   id: 5
 },
 {
-  letter: "F",
+  letter: "f",
   designate: "Federick",
   id: 6
 },
 {
-  letter: "G",
+  letter: "g",
   designate: "Garima",
   id: 7
 },
 {
-  letter: "H",
+  letter: "h",
   designate: "Heber",
   id: 8
 },
 {
-  letter: "I",
+  letter: "i",
   designate: "Ivory",
   id: 9
 },
 {
-  letter: "J",
+  letter: "j",
   designate: "Jacqueline",
   id: 10
 },
 {
-  letter: "K",
+  letter: "k",
   designate: "Keith",
   id: 11
 },
 {
-  letter: "L",
+  letter: "l",
   designate: "Lorraine",
   id: 12
 },
 {
-  letter: "M",
+  letter: "m",
   designate: "Marco",
   id: 13
 },
 {
-  letter: "N",
+  letter: "n",
   designate: "Nina",
   id: 14
 },
 {
-  letter: "O",
+  letter: "o",
   designate: "Omar",
   id: 15
 },
 {
-  letter: "P",
+  letter: "p",
   designate: "Pamela",
   id: 16
 },
 {
-  letter: "Q",
+  letter: "q",
   designate: "Quinton",
   id: 17
 },
 {
-  letter: "R",
+  letter: "r",
   designate: "Rita",
   id: 18
 },
 {
-  letter: "S",
+  letter: "s",
   designate: "Sean",
   id: 19
 },
 {
-  letter: "T",
+  letter: "t",
   designate: "Tabatha",
   id: 20
 },
 {
-  letter: "U",
+  letter: "u",
   designate: "Uriel",
   id: 21
 },
 {
-  letter: "V",
+  letter: "v",
   designate: "Victoria",
   id: 22
 },
 {
-  letter: "W",
+  letter: "w",
   designate: "Warren",
   id: 23
 },
 {
-  letter: "X",
+  letter: "x",
   designate: "Xena",
   id: 24
 },
 {
-  letter: "Y",
+  letter: "y",
   designate: "Yovan",
   id: 25
 },
 {
-  letter: "Z",
+  letter: "z",
   designate: "Zada",
   id: 26
 },
