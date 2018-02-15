@@ -1,9 +1,9 @@
 import React from 'react';
-import BabyNames from './BabyNameList.jsx';
+import BabyNames from './BabyNames.jsx';
 
-const BabyNameList = () => (
+const BabyNameList = (props) => (
   <div className="babynames">
-    <BabyNames />
+    {props.list.map((name) => <BabyNames name={name}/>
   </div>
 )
 

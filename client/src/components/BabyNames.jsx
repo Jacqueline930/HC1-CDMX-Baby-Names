@@ -2,7 +2,8 @@ import React from 'react';
 
 const BabyNames = () => (
   <div>
-    <span> Alphabet letter </span>
+    <span> {props.name.letter} </span>
+    <span> {props.name.designate} </span>
   </div>
 )
 
