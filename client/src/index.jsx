@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import $ from 'jquery';
 import BabyNameList from './components/BabyNameList.jsx';
 import SearchName from './components/SearchName.jsx';
 
@@ -9,26 +10,43 @@ class App extends React.Component {
     this.state = {
       nameList: []
     }
+    this.addBabyName = this.addBabyName.bind(this);
   }
 
-  componentDidMount() {
-    this.handleData();
+  addBabyName(letter, gender) {
+    $.ajax({
+      method: 'POST',
+      url: '/names',
+      contentType: 'application/json',
+      data: JSON.stringify({
+        letter: letter,
+        gender: gender
+      })
+    }).done((results) => {
+      console.log(results)
+      this.setState({nameList: results});
+    });
   }
 
-  addBabyName(letter, name) {
-    this.setState(window.data)
-  }
-
-  handleData() {
-    this.setState({nameList: window.data})
-  }
+  // handleData() {
+  //   $.ajax({
+  //     url: '/names',
+  //     method: 'GET',
+  //     success: (results) => {
+  //       this.setState({nameList: results});
+  //     },
+  //     error: (xhr, err) => {
+  //       console.log('err', err);
+  //     }
+  //   })
+  // }
 
 render() {
   return (
     <div>
       <h1>Baby Names</h1>
+      <SearchName addBabyName={this.addBabyName}/>
       <BabyNameList nameList={this.state.nameList}/>
-      <SearchName />
     </div>
   )
  }
